@@ -1,0 +1,47 @@
+<header>
+    <nav class="split">
+        <div class="left">
+            <a href="/">Home</a>
+        </div>
+        <div class="right">
+            <a href="/user/login">Log in</a>
+            <a href="about-us">About us</a>
+        </div>
+    </nav>
+</header>
+
+
+
+
+<div class="signup">
+    <div>
+        <h1>Sign up</h1>
+        <p>Get your own reading list!</p>
+    </div>
+    <article>
+        <form action="/user/signup" method="post">
+            <label>
+                <span>Username</span>
+                <div class="fixed block input-wrapper">
+                    <input type="text" name="username" required
+                                    placeholder="thesephist">
+                </div>
+            </label>
+            <label>
+                <span>Email</span>
+                <div class="fixed block input-wrapper">
+                    <input type="email" name="email" required
+                                        placeholder="me@example.com">
+                </div>
+            </label>
+            <label>
+                <span>Password</span>
+                <div class="fixed block input-wrapper">
+                    <input type="password" name="password" required>
+                </div>
+            </label>
+            <button class="accent block" type="submit">Sign up &rarr;</button>
+        </form>
+    </article>
+
+</div>

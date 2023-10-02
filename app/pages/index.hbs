@@ -1,0 +1,26 @@
+<header>
+    <nav class="split">
+        <div class="left">
+            <a href="/">Home</a>
+        </div>
+        <div class="right">
+            {{#if currentUser}}
+            <a href="/user/logout">Log out</a>
+            <a href="/{{currentUser.details.username}}">My Reading List &rarr;</a>
+            {{else}}
+            <a href="/user/login">Log in</a>
+            <a href="/user/signup">Sign up &rarr;</a>
+            {{/if}}
+            <a href="about-us">About us</a>
+        </div>
+    </nav>
+</header>
+
+<div class="landing">
+    <h1>Welcome to your personal Reading List</h1>
+    <p class="bio">
+    Share the good stuff you're reading online, and find what everyone else is
+    reading.
+    </p>
+    <img src="/app/assets/images/book.png"/>
+</div>

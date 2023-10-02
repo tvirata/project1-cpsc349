@@ -1,0 +1,43 @@
+    <header>
+        <nav class="split">
+            <div class="left">
+                <a href="/">Home</a>
+            </div>
+            <div class="right">
+                {{#if currentUser}}
+                    <a href="/{{currentUser.details.username}}/?preview=true" target="_blank">Preview</a>
+                    <a href="/user/logout">Log out</a>
+                {{else}}
+                    <a href="/user/signup">Get your own shelf &rarr;</a>
+                {{/if}}
+            <a href="about-us">About us</a>
+            </div>
+        </nav>
+    </header>
+    
+<body>
+    <table>
+        <tr>
+            <td>
+                <img src="/app/assets/images/pepe.jpeg" alt="pic"/>
+                <h2>Angel</h2>
+                <p>yeet</p>
+            </td>
+            <td>
+                <img src="/app/assets/images/pepe.jpeg" alt="pic"/>
+                <h2>John</h2>
+                <p>yeet</p>
+            </td>
+            <td>
+                <img src="/app/assets/images/pepe.jpeg" alt="pic"/>
+                <h2>Kingston</h2>
+                <p>yeet</p>
+            </td>
+            <td>
+                <img src="/app/assets/images/pepe.jpeg" alt="pic"/>
+                <h2>Tonirose</h2>
+                <p>yeet</p>
+            </td>
+        </tr>
+    </table>
+</body>

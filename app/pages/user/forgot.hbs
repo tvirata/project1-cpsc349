@@ -1,0 +1,28 @@
+<header>
+    <nav class="split">
+        <div class="left">
+            <a href="/">Home</a>
+        </div>
+        <div class="right">
+            <a href="/user/login">Log in</a>
+            <a href="about-us">About us</a>
+        </div>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Recover your password</h1>
+</div>
+
+<article>
+    <form action="/user/forgot" method="post">
+        <label>
+            <span>Username</span>
+            <div class="fixed block input-wrapper">
+                <input type="text" name="username" required
+                                   placeholder="thesephist">
+            </div>
+        </label>
+        <button class="accent block" type="submit">Send reset link</button>
+    </form>
+</article>

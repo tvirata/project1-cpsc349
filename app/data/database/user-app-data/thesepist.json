@@ -1,0 +1,37 @@
+{
+  "displayName": "A bookworm",
+  "bio": "A few words about you, what you like to read, and who you are.",
+  "topics": [
+    {
+      "name": "Community building",
+      "links": [
+        {
+          "label": "Get Together (book)",
+          "url": "https://gettogether.world/"
+        },
+        {
+          "label": "A cellular theory of communities, by Linus",
+          "url": "https://thesephist.com/posts/cellular-communities/"
+        },
+        {
+          "label": "Article name",
+          "url": "https://shelf.page/"
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "links": [
+        {
+          "label": "A blog post about Gyo, a simple software computer with an assembly language",
+          "url": "https://wiki.xxiivv.com/site/gyo.html"
+        }
+      ]
+    },
+    {
+      "name": "New topic",
+      "links": []
+    }
+  ],
+  "id": "pTjdkgWaMfiyzh"
+}
